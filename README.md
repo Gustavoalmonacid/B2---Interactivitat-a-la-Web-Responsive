@@ -18,11 +18,11 @@ Quiero añadir que en el botón hay un evento _onclick_ que lo único que hace e
 
 ### Scripts
 
-En el html se han incluido varios scripts, entre los cuales están:
-- Un script que elimina el contenido de la página y lo sustituye por el formulario previamente creado:
-![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/e8ae5e0e-e6cb-45d5-880f-07ae520096e3)
-- Un script que hace aparecer notificaciones en _alerts_ cuando pusas con el boton encima de las imagenes en la página _characters.html_:
-![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/68b14372-78d5-441c-a5af-2822504ccfc5)
-- Un script que cambia el logo y la imagen de fondo de todas las páginas al pusar el logo de la página:
-![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/b0841186-2150-4df1-9565-ff2aa22d1d43)
-- 
+Otro de los requisitos que había que hacer era la inclusió de ciertos scripts de javascript. Cinco de ellos eran obligatorios y luego, si nos daba tiempo podíamos añadir algunos por nuestra cuenta.
+
+### Script de carga dinámica de contenido.
+
+El objetivo de este script es coger el contenido de una página y hacerlo desaparecer o aparecer.  
+En este caso, he cogido el contenido del div con el id _text_ y lo he hacho desaparecer, y en su lugar aparece el formulario previamente nombrado. el proces es simple, se selecciona el contenido usando **document.getElementById("")** y se le cambia el estilo con _style.dysplay_.
+
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/5054d56f-dedf-49f0-92ef-d3fbab586e60)
