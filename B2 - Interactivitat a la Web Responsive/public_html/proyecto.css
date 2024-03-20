@@ -1,0 +1,338 @@
+body {
+    cursor:url(imagenes/cursor.png) , default !important;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: #FFCE66;
+}
+
+h2 {
+    color: #FFCE66;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+a {
+    cursor:url(imagenes/cursora.png) , default !important;
+    color: #FFCE66;
+    text-decoration: none;
+}
+
+#principal {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 768px) {
+    #principal {
+        width: 100%;
+    }
+    #header #joey {
+        width: 80% !important;
+    }
+    
+    #menuh {
+        display: none;
+    }
+    #characters{
+        display: none;
+    }
+    
+    #text{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #menuv {
+        display: none;
+    }
+}
+
+#header {
+    clear: both;
+    background-color: #000;
+}
+
+#header #joey {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+#joey img {
+    max-height: 80px;
+    max-width: 100%;
+}
+
+#header #left {
+  float: left;
+  width: 20%;
+}
+
+#left #logo {
+    width: 100%;
+}
+
+#logo img {
+    max-height: 80px;
+    max-width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+#content {
+    clear: both;
+}
+
+#text {
+    width: 75%;
+    float: left;
+}
+
+#text #resumen {
+    float: left;
+    width: 50%;
+    padding: 12px;
+}
+
+#text #estetica {
+    float: right;
+    width: 50%;
+    padding: 12px;
+}
+
+/*Personajes*/
+#characters {
+    width: 25%;
+    float: right;
+    border: 1px solid;
+    background-color: #000;
+    text-align: center;
+}
+
+#characters li a {
+    padding: 10px 12px;
+    display: block;
+}
+
+#characters img {
+    max-width: 100%; /* Cambiado de 50px a 100% */
+    max-height: 150px; /* Añadido para limitar la altura */
+    vertical-align: middle;
+}
+
+#footer {
+    clear: both;
+    letter-spacing: -1.1px;
+    padding: 12px;
+    border: 1px solid;
+}
+
+#footer .copyright{
+    color: white;
+}
+
+#footer .enlaces {
+    float: left;
+}
+
+#footer .copyright {
+    float: right;
+}
+
+#footer img {
+    max-width: 20px;
+    vertical-align: middle;
+}
+
+/*Menu horizontal*/
+#menuh {
+  border: 1px solid;
+  margin: 1px;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0px;
+}
+
+.navh {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navh > li {
+    float: left;
+    min-width: 100px;
+    width: 20%;
+}
+
+.navh li a {
+    background-color: #000;
+    padding: 10px 12px;
+    display: block;
+    text-align: center;
+}
+
+.navh li ul {
+    display: none;
+    position: absolute;
+    
+}
+
+.navh a:hover {
+    background-image: url("imagenes/resaltado.png");
+    color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.navh li:hover > ul {
+    display: block;
+    min-width: 100px;
+    width: inherit;
+}
+
+.navh li ul li {
+    position: relative;
+    margin: 0 auto;
+}
+
+/*Menu vertical*/
+#menuv {
+  clear: both;
+  width: 100%;
+  color: #FFCE66;
+  border: 1px solid;
+  background-color: #000;
+}
+
+#menuv:hover ul.navv {
+    display: block;
+}
+
+.navv li {
+    list-style-type:none;
+    position:relative;
+    width:120px;
+}
+                
+.navv li a {
+    display:inline-block;
+    padding:5px 10px;
+    background-color: #000;
+    text-align: left;
+}
+
+.navv a:hover {
+    background-image: url("imagenes/resaltado.png");
+    color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+    
+.navv {
+    display:none;
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+.navv li ul {
+    display:none;
+    position:absolute;
+    top:0px;
+    left:100px;
+}
+
+.navv li:hover ul {display:block;}
+
+/*Formulario*/
+
+#show_from {
+    float: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFCE66;
+    color: black;
+    font-weight: bold;
+    cursor: url(imagenes/cursora.png), default !important;
+    margin: 10px 0;
+}
+
+#show_from:hover {
+    background-color: #e6b84f;
+}
+
+#formulario {
+    display: none;
+    float: left;
+    padding: 12px
+}
+
+button {
+    cursor:url(imagenes/cursora.png) , default !important;
+}
+
+.forms {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 0px auto;
+    border-radius: 5px;
+    margin: 0px auto;
+    max-width: 400px;
+    color: white;
+}
+
+.forms label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.forms input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.forms textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.forms button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFCE66;
+    color: black;
+    font-weight: bold;
+    cursor: url(imagenes/cursora.png), default !important;
+}
+
+.forms button:hover {
+    background-color: #e6b84f;
+}
+
+#comments {
+    float: left;
+}
