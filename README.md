@@ -59,3 +59,13 @@ Quería cambiar algunos otros elementos como la letra y el cursor, pero me di cu
 He añadidio un if, para que si quieres volver al estilo original puedas si vuelves a clicar en el logo.
 
 ### Script relacionado con imágenes.
+
+Probablemente el más complicado de todos, este script tiene el objetovo de crear un carrusel de imagenes que vaya cambiando cada cierto tiempo.  
+En este caso lo he incluido en cada archivo, a excepción de las páginas _characters.html_ y _coments.html_ para que, lo que era previamente una lista:  
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/587cc345-810d-4299-97d1-6a4f54e04e37)  
+Pase a ser un carrusel que cambia la imagen cada 5 segundos, a menos que pases el cursor por encima que mantiene la imagen en la que te has quedado. A diferencia de los otros scripts, que estan situados en un archivo aparte conocido como _scripts.js_ este script se encuentra al final de las páginas entre dos eticetas _<script>_.
+
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/486f4b94-aff3-4111-aae3-f2fb261cfaa0)
+
+## Resumen
+
