@@ -34,3 +34,10 @@ En mi caso, he seleccionado las imagenes que hay en la página _characters.html_
 
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/e0fce53d-8113-44b0-8dd0-65f20659d14c)
 
+### Script para una encuesta interactiva.
+
+El objetivo de este script es que, mediante un formulario, se introduzca, por ejemplo, un comentario y este aparezca en la página.  
+para este script no he usado el formulario obligatorio, sino que he creado uno nuevo en una páginan aparte llamada _coments.html_ a la que se puede acceder si se pulsa esta imagen:  
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/21926cf4-5f9b-4abd-a4a0-b383c6d5e1f7)  
+En esta página hay una formulario en el que introduces tu nombre y el mensaje que quieras introducir y una vez que pulsas el botón para comentar se crea una _<p>_ y se inserta en el div con el id **impresion**. Sin embargo, he de mencionar que una vez que la página se recarga, todos los comentarios hechos previamente desaparecen.
+
