@@ -41,3 +41,21 @@ para este script no he usado el formulario obligatorio, sino que he creado uno n
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/21926cf4-5f9b-4abd-a4a0-b383c6d5e1f7)  
 En esta página hay una formulario en el que introduces tu nombre y el mensaje que quieras introducir y una vez que pulsas el botón para comentar se crea una _<p>_ y se inserta en el div con el id **impresion**. Sin embargo, he de mencionar que una vez que la página se recarga, todos los comentarios hechos previamente desaparecen.
 
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/7969ada1-7046-457b-b0f3-c7988a5d9efa)
+
+### Script para canvios de estilo.
+
+El objetivo de este scrip es sencillo, pulsas un boton o algun elemento del hatml y los estilos de la página cambian.  
+En este caso se pulsa el logo de la página:  
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/38cabbe7-f1e9-4230-af92-b16452c52d7e)  
+Y el logo, junto con la imagen de fondo cambian de esto:  
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/32ec527f-b78c-499a-8cc9-5358b753ace6)  
+A esto:  
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/deb380f6-a003-4ca6-bf57-0c9efaacd429)  
+Quería cambiar algunos otros elementos como la letra y el cursor, pero me di cuenta que si me entretenía haciendo eso no tendría tiempo de hacer los otros scripts, así que lo dejé un poco de lado. También quiero mencionar que este script, a diferencia de otros, fuinciona en todas las páginas.
+
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/31eef8bb-b248-4f96-b92b-5445242df3d9)
+
+He añadidio un if, para que si quieres volver al estilo original puedas si vuelves a clicar en el logo.
+
+### Script relacionado con imágenes.
