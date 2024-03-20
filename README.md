@@ -2,11 +2,19 @@
 
 ## Documentación
 
+Mi nombre es Gustavo Almonacid y he creado esta página web como el trabajo de segunda avaluació de la asignatura de lenguaje de marcas. Primero he de mencionar que he realizado este trabajo yo solo y que no he usado la misma web que cree en la primera avaluación, ya que estaba más conforme con una web que hize el año pasado.
+
 ### Form
 
-He decididio empezar haciendo el **formulario**:  
-![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/2b09e90b-bc2a-464d-9ac8-80516eeca8c3)  
-Dentro del _formulario_ he creado tres inputs: nombre, email (o correo electrónico) y mensaje.
+Uno de los requisitos obligatorios del proyecto era crear un formulario con el que el usuario pudiese interactuar, por lo que he creado un formulario en la página _index.html_ donde el usuario puede introducir su nombre, su email y alguna duda con respecto a la página.
+
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/bcc9993e-0480-4e15-940e-fec770110e80)  
+Código
+
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/64a38289-9c2c-43a8-8361-ef2724342d57)  
+Resultado final
+
+Quiero añadir que en el botón hay un evento _onclick_ que lo único que hace es imprimir en un _alert_ 'Gracias por contactar con nosotros' y el nombre que se ha introducido en u_name.
 
 ### Scripts
 
