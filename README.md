@@ -14,7 +14,7 @@ Código
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/64a38289-9c2c-43a8-8361-ef2724342d57)  
 Resultado final
 
-Quiero añadir que en el botón hay un evento _onclick_ que lo único que hace es imprimir en un _alert_ 'Gracias por contactar con nosotros' y el nombre que se ha introducido en u_name.
+Quiero añadir que en el botón hay un evento _onclick_ que lo único que hace es imprimir en un _alert_ 'Gracias por contactar con nosotros' y el nombre que se ha introducido en _u_name_.
 
 ### Scripts
 
