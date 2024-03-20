@@ -23,7 +23,7 @@ Otro de los requisitos que había que hacer era la inclusió de ciertos scripts 
 ### Script de carga dinámica de contenido.
 
 El objetivo de este script es coger el contenido de una página y hacerlo desaparecer o aparecer.  
-En este caso, he cogido el contenido del div con el id _text_ y lo he hacho desaparecer, y en su lugar aparece el formulario previamente nombrado. el proces es simple, se selecciona el contenido usando **document.getElementById("")** y se le cambia el estilo con _style.dysplay_.
+En este caso, he cogido el contenido del div con el id _text_ y lo he hacho desaparecer, y en su lugar aparece el formulario previamente nombrado. El proces es simple, se selecciona el contenido usando **document.getElementById("")** y se le cambia el estilo con _style.dysplay_.
 
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/5054d56f-dedf-49f0-92ef-d3fbab586e60)
 
