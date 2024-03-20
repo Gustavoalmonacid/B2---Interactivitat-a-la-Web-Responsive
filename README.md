@@ -6,7 +6,7 @@ Mi nombre es Gustavo Almonacid y he creado esta página web como el trabajo de s
 
 ### Formulario
 
-Uno de los requisitos obligatorios del proyecto era crear un formulario con el que el usuario pudiese interactuar, por lo que he creado un formulario en la página _index.html_ donde el usuario puede introducir su nombre, su email y alguna duda con respecto a la página.
+Uno de los requisitos obligatorios del proyecto era crear un formulario con el que el usuario pudiese interactuar, por lo que he creado un formulario en la página _index.html_ donde el usuario puede introducir su nombre, su email y algun comentario con respecto a la página.
 
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/bcc9993e-0480-4e15-940e-fec770110e80)  
 Código
