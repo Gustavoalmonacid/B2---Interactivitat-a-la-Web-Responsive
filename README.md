@@ -39,6 +39,7 @@ En mi caso, he seleccionado las imagenes que hay en la página _characters.html_
 El objetivo de este script es que, mediante un formulario, se introduzca, por ejemplo, un comentario y este aparezca en la página.  
 para este script no he usado el formulario obligatorio, sino que he creado uno nuevo en una páginan aparte llamada _coments.html_ a la que se puede acceder si se pulsa esta imagen:  
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/21926cf4-5f9b-4abd-a4a0-b383c6d5e1f7)  
+O, si lo seleccionas en el menu horizontal.  
 En esta página hay una formulario en el que introduces tu nombre y el mensaje que quieras introducir y una vez que pulsas el botón para comentar se crea una _<p>_ y se inserta en el div con el id **impresion**. Sin embargo, he de mencionar que una vez que la página se recarga, todos los comentarios hechos previamente desaparecen.
 
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/7969ada1-7046-457b-b0f3-c7988a5d9efa)
@@ -63,6 +64,13 @@ He añadidio un if, para que si quieres volver al estilo original puedas si vuel
 Probablemente el más complicado de todos, este script tiene el objetovo de crear un carrusel de imagenes que vaya cambiando cada cierto tiempo.  
 En este caso lo he incluido en cada archivo, a excepción de las páginas _characters.html_ y _coments.html_ para que, lo que era previamente una lista:  
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/587cc345-810d-4299-97d1-6a4f54e04e37)  
-Pase a ser un carrusel que cambia la imagen cada 5 segundos, a menos que pases el cursor por encima que mantiene la imagen en la que te has quedado. A diferencia de los otros scripts, que estan situados en un archivo aparte conocido como _scripts.js_ este script se encuentra al final de las páginas entre dos eticetas _<script>_.
+Pase a ser un carrusel que cambia la imagen cada 5 segundos, a menos que pases el cursor por encima que mantiene la imagen en la que te has quedado. A diferencia de los otros scripts, que estan situados en un archivo aparte conocido como _scripts.js_ este script se encuentra al En el archivo _carrusel.js_.
 
 ![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/486f4b94-aff3-4111-aae3-f2fb261cfaa0)
+
+### Script para cargar el menu.
+
+El objetivo que tiene este script es cargar dentro de cada página el header junto con el menu horizontal sin la necesidad de copiar y pegar todo el contenidoen cada página que creas.  
+Este script se encuentra en el archivo _menu.js_ que se inicia al final de cada página. Para ello, crea todos los elementos con _crateElement_ y los añade al documento con _appendChild_. A su vez le atribuye a estos elementos sus **atributos**, ya seas el _src_ si se trata de una imagen, el _href_ si se trata de un enlace, el _id_ del elemento, ... 
+
+![image](https://github.com/Gustavoalmonacid/B2---Interactivitat-a-la-Web-Responsive/assets/114769152/0ff3a3ed-3ba0-4b83-b72c-78a6564fb58f)
